@@ -5,6 +5,7 @@
         tb_admin //管理员信息表
             id
             passwd
+            power //权力，区分能否操作用户组。
     视图
         view_AdminInfo //视图全名
         view //视图
