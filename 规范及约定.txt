@@ -1,0 +1,74 @@
+数据库
+    数据库名称 
+        db_VWMS //视频监控管理系统数据库
+    数据库包含的表
+        tb_admin //管理员信息表
+            id
+            passwd
+    视图
+        view_AdminInfo //视图全名
+        view //视图
+        AdminInfo //查看管理员信息
+    存储过程
+        proc_Login //存储过程全名
+        proc //存储过程
+        Login //实现登陆功能
+    触发器
+        trig_inAdmin //触发器全名
+        trig //触发器
+        inAdmin //插入管理员信息
+
+程序代码命名规范
+    模块级变量  M_int_xx
+    全局变量    G_int_xx
+    局部变量    P_int_xx
+    模块级常量  Mc_int_xx
+    全局常量    Gc_str_xx
+    过程级常量  Pc_str_xx
+
+控件命名简写规范
+    Form            frm
+    TextBox         txt
+    Button          btn
+    ComboBox        cbox
+    Label           lab
+    DataGridView    dgv
+    ListBox         lb
+    Timer           tmr
+    CheckBox        chb
+    LinkLabel       llbl
+    RichTextBox     rtbox
+    CheckedListBox  clbox
+    RadioButton     rbtn
+    NumericUpDown   nudown
+    Panel           pl
+    GroupBox        gbox
+    TabControl      tcl
+    ErrorProvider   epro
+    ImageList       ilist
+    HelpProvider    hpro
+    ListView        lv
+    TreeView        tv
+    PictureBox      pbox
+    NotifyIcon      nicon
+    DataTimePicker  dtpicker
+    MonthCalendar   mcalen
+    ToolTip         ttip
+    ProgressBar     pbar
+
+公共类 
+    DataCon //访问数据库
+    DataOperate //操作数据库
+        实例化对象
+        datacon //用于调用自定义类DataCon类的方法
+        oledbcon //连接数据库
+        oledbcom //执行Command命令
+        oledbda //填充DataSet数据集 & 更新数据库的一组数据命令和一个数据库的连接
+        ds //数据集
+    SoftReg //生成机器码及系统注册功能
+        GetDiskVolumeSerialNumber() //获得本机硬盘标识号
+        getCpu() //获得本机CPU序列号
+        getMNum() //从硬盘标识号和CPU序列号中取出一定位数作为机器码
+        getRNum() //根据机器码生成注册码
+    VideoOperate //封装视频采集卡中的各种枚举和API
+    PelcoD //实现Pelco-D协议
