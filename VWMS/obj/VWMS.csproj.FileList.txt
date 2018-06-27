@@ -1,0 +1,13 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VWMS.csproj.ResolveComReference.cache
+obj\Debug\VWMS.frmMain.resources
+obj\Debug\VWMS.frmLogin.resources
+obj\Debug\VWMS.frmPlay.resources
+obj\Debug\VWMS.frmRegister.resources
+obj\Debug\VWMS.frmSetMonitor.resources
+obj\Debug\VWMS.Properties.Resources.resources
+obj\Debug\VWMS.csproj.GenerateResource.Cache
+bin\Debug\VWMS.exe
+bin\Debug\VWMS.pdb
+obj\Debug\VWMS.exe
+obj\Debug\VWMS.pdb

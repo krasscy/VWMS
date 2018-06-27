@@ -1,0 +1,2 @@
+E:\源码\C#项目开发全程实录（第二版）\TM\01\VWMS\VWMS\obj\Debug\VWMS.exe
+E:\源码\C#项目开发全程实录（第二版）\TM\01\VWMS\VWMS\obj\Debug\VWMS.pdb
